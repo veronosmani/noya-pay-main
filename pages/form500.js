@@ -2,8 +2,7 @@ import React from "react";
 import reservationImg from "../app/reservationImg.svg";
 import "../app/globals.css";
 
-
-export default function FormPage() {
+export default function Form350() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
@@ -12,7 +11,7 @@ export default function FormPage() {
         surname: event.target.surname.value,
         phoneNumber: event.target.phoneNumber.value,
         email: event.target.email.value,
-        paymentAmount: event.target.paymentAmount.value,
+        paymentAmount: 350,
       };
       const response = await fetch("/api/save", {
         method: "POST",
