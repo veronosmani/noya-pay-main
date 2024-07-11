@@ -34,7 +34,7 @@ export default function FormPage() {
   };
 
   return (
-    <div className="flex flex-col items-center relative py-[50px] bg-white rounded-[15px] w-[555px] h-[750px]">
+    <div className="flex flex-col items-center relative py-[35px] bg-white rounded-[15px] w-[555px] h-[700px]">
       <div className="flex flex-row justify-between items-center mx-auto space-x-4">
         <h1 className="poppins-medium text-[30px] mt-20 mr-12">
           Reservation <br />
@@ -86,7 +86,7 @@ export default function FormPage() {
         </div>
         <div>
           <button
-            className="bg-red-800 text-[16px] font-medium text-white w-[420px] h-[45px] rounded-[5px] mt-24 poppins-medium"
+            className="bg-red-800 text-[16px] font-medium text-white w-[420px] h-[45px] rounded-[5px] mt-[75px] poppins-medium"
             type="submit"
           >
             Continue to payment
