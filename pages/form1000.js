@@ -1,6 +1,8 @@
 import React from "react";
 import reservationImg from "../app/reservationImg.svg";
 import "../app/globals.css";
+import background from "../app/background.jpg";
+
 
 export default function Form350() {
   const handleSubmit = async (event) => {
@@ -33,6 +35,12 @@ export default function Form350() {
   };
 
   return (
+    <div className="relative w-full min-h-screen">
+      <div
+        className="min-h-screen min-w-screen flex items-center justify-center bg-no-repeat bg-cover"
+        style={{ backgroundImage: `url(${background.src})` }}
+      >
+
     <div className="flex flex-col items-center relative py-[35px] bg-white rounded-[15px] w-[555px] h-[700px]">
       <div className="flex flex-row justify-between items-center mx-auto space-x-4">
         <h1 className="poppins-medium text-[30px] mt-20 mr-12">
@@ -42,7 +50,7 @@ export default function Form350() {
         <div
           className="w-[160px] h-[265px] bg-no-repeat"
           style={{ backgroundImage: `url(${reservationImg.src})` }}
-        ></div>
+          ></div>
       </div>
       <form onSubmit={handleSubmit}>
         <div>
@@ -74,7 +82,7 @@ export default function Form350() {
               name="phoneNumber"
               placeholder="Phone Number"
               required
-            />
+              />
           </div>
           <div className="border-2 border-gray-600 rounded-[5px] mt-4 h-[45px] w-[420px] pl-4 uppercase flex flex-row justify-between items-center poppins-medium">
             <h1>Payment Amount</h1>
@@ -87,11 +95,13 @@ export default function Form350() {
           <button
             className="bg-red-800 text-[16px] font-medium text-white w-[420px] h-[45px] rounded-[5px] mt-[75px] poppins-medium"
             type="submit"
-          >
+            >
             Continue to payment
           </button>
         </div>
       </form>
+    </div>
+            </div>
     </div>
   );
 }
