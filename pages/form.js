@@ -46,33 +46,41 @@ export default function FormPage() {
       </div>
       <form onSubmit={handleSubmit}>
         <div>
-          <div className="border-2 border-gray-600 rounded-[5px] mt-10 h-[45px] w-[420px] pl-4 pt-2 uppercase">
-            <label htmlFor="name">Name / Surname</label>
+          <div className="border-2 border-gray-600 rounded-[5px] mt-6 h-[45px] w-[420px] pl-4 flex flex-row justify-between items-center">
             <input
-              className="justify-center"
+              className="justify-center w-full h-full bg-transparent outline-none uppercase placeholder:text-black"
               type="text"
               id="name"
               name="name"
+              placeholder="Name / Surname"
               required
             />
           </div>
-          <div className="border-2 border-gray-600 rounded-[5px] mt-6 h-[45px] w-[420px] pl-4 pt-2 uppercase">
-            <label htmlFor="email">Email</label>
-            <input type="text" id="email" name="email" required />
+          <div className="border-2 border-gray-600 rounded-[5px] mt-6 h-[45px] w-[420px] pl-4 flex flex-row justify-between items-center">
+            <input
+              className="w-full h-full bg-transparent outline-none uppercase placeholder:text-black"
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
           </div>
-          <div className="border-2 border-gray-600 rounded-[5px] mt-6 h-[45px] w-[420px] pl-4 pt-2 uppercase">
-            <label htmlFor="phoneNumber">Phone Number</label>
-            <input type="tel" id="phoneNumber" name="phoneNumber" required />
+          <div className="border-2 border-gray-600 rounded-[5px] mt-6 h-[45px] w-[420px] pl-4  fle flex-row justify-between items-center">
+            <input
+              className="w-full h-full bg-transparent outline-none uppercase placeholder:text-black"
+              type="text"
+              id="phoneNumber"
+              name="phoneNumber"
+              placeholder="Phone Number"
+              required
+            />
           </div>
           <div className="border-2 border-gray-600 rounded-[5px] mt-6 h-[45px] w-[420px] pl-4 uppercase flex flex-row justify-between items-center">
-            <label htmlFor="paymentAmount">Payment Amount</label>
-            <input
-             className="bg-gray-300 w-[125px] h-[45px] rounded-[5px] border-2 border-r-0  border-gray-600 text-center"
-              type="number"
-              id="paymentAmount"
-              name="paymentAmount"
-              required
-            />
+            <h1>Payment Amount</h1>
+            <h1 className="bg-gray-300 w-[125px] h-[45px] rounded-[5px] border-2 border-r-0 border-gray-600 text-center font-bold flex items-center justify-center ">
+              500$
+            </h1>
           </div>
         </div>
         <div className="mb-20">
