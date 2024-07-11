@@ -67,7 +67,7 @@ export default function FormPage() {
           <div className="border-2 border-gray-600 rounded-[5px] mt-6 h-[45px] w-[420px] pl-4 uppercase flex flex-row justify-between items-center">
             <label htmlFor="paymentAmount">Payment Amount</label>
             <input
-             className="bg-gray-300 w-[125px] h-[45px] rounded-[5px] border-2 border-black text-center"
+             className="bg-gray-300 w-[125px] h-[45px] rounded-[5px] border-2 border-r-0  border-gray-600 text-center"
               type="number"
               id="paymentAmount"
               name="paymentAmount"
