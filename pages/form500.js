@@ -80,7 +80,7 @@ export default function FormPage() {
           <div className="border-2 border-gray-600 rounded-[5px] mt-6 h-[45px] w-[420px] pl-4 uppercase flex flex-row justify-between items-center poppins-medium">
             <h1>Payment Amount</h1>
             <h1 className="bg-gray-300 w-[125px] h-[45px] rounded-[5px] border-2 border-r-0 border-gray-600 text-center font-bold flex items-center justify-center poppins-bold">
-              500$
+              500€
             </h1>
           </div>
         </div>
