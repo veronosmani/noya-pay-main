@@ -2,7 +2,6 @@ import background from "../app/background.jpg";
 import Form350 from "./form350";
 import Form500 from "./form500";
 import Form1000 from "./form1000";
-import { Router, Routes } from "next/router";
 
 function HomePage() {
   return (
