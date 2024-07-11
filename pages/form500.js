@@ -49,7 +49,7 @@ export default function FormPage() {
         <div>
           <div className="border-2 border-gray-600 rounded-[5px] mt-6 h-[45px] w-[420px] pl-4 flex flex-row justify-between items-center poppins-medium">
             <input
-              className="justify-center w-full h-full bg-transparent outline-none uppercase placeholder:text-black"
+              className="justify-center w-full h-full bg-transparent outline-none placeholder:uppercase placeholder:text-black"
               type="text"
               id="name"
               name="name"
@@ -59,7 +59,7 @@ export default function FormPage() {
           </div>
           <div className="border-2 border-gray-600 rounded-[5px] mt-4 h-[45px] w-[420px] pl-4 flex flex-row justify-between items-center poppins-medium">
             <input
-              className="w-full h-full bg-transparent outline-none uppercase placeholder:text-black"
+              className="w-full h-full bg-transparent outline-none placeholder:uppercase placeholder:text-black"
               type="text"
               id="email"
               name="email"
@@ -69,7 +69,7 @@ export default function FormPage() {
           </div>
           <div className="border-2 border-gray-600 rounded-[5px] mt-4 h-[45px] w-[420px] pl-4  fle flex-row justify-between items-center poppins-medium">
             <input
-              className="w-full h-full bg-transparent outline-none uppercase placeholder:text-black"
+              className="w-full h-full bg-transparent outline-none placeholder:uppercase placeholder:text-black"
               type="text"
               id="phoneNumber"
               name="phoneNumber"
