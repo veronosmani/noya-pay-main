@@ -1,7 +1,5 @@
 import background from "../app/background.jpg";
-import Form350 from "./form350";
-import Form500 from "./form500";
-import Form1000 from "./form1000";
+import Pay350 from "./pay350";
 
 function HomePage() {
   return (
@@ -10,7 +8,7 @@ function HomePage() {
         className="min-h-screen min-w-screen flex items-center justify-center bg-no-repeat bg-cover"
         style={{ backgroundImage: `url(${background.src})` }}
       >
-        <Form350 />
+        <Pay350 />
       </div>
     </div>
   );

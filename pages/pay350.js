@@ -4,7 +4,7 @@ import "../app/globals.css";
 import background from "../app/background.jpg";
 
 
-export default function Form350() {
+export default function Pay350() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
